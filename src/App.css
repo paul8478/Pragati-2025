@@ -1,0 +1,14 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background: url('Noise-bg.gif');
+}
+.pages{
+  padding-left: 4rem;
+  padding-right: 4rem;
+
+}
+

@@ -1,0 +1,470 @@
+h1{
+  color: white;
+}
+p{
+  color: #a5a4a4;
+}
+.rect-box1 {
+  background-color: lightgray;
+  border-radius: 5px;
+  text-align: center;
+  position: relative; /* Position the image relative to this container */
+  overflow: hidden; /* Ensure the image doesn't overflow */
+  
+  display: block;
+  height: 70vh; /* Set a fixed height for the container */
+}
+
+.background-image {
+  width: 100%; /* Make the image width 100% */
+  height: 100%; /* Make the image height 100% */
+  object-fit: cover; /* Cover the container while maintaining aspect ratio */
+  border-radius: 5px;
+}
+
+.center-text {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  position: absolute; /* Position the text over the image */
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 24px;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+.center-text p {
+  margin: 0; /* Remove default margin */
+  padding: 5px 0; /* Add padding for spacing */
+}
+.label1{
+background-color: grey;
+color: white;
+font-family: arial;
+font-weight: bold;
+
+}
+
+body {
+  font-family: 'Chakra Petch', sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.mouse-shadow {
+  position: absolute;
+  width: 2px; /* Increase the size */
+  height: 2px; /* Increase the size */
+  background-color: rgba(255, 255, 0, 0.281); /* Slightly reduce opacity */
+  border-radius: 50%;
+  pointer-events: none; /* Disable mouse events for the shadow */
+  transform: translate(-50%, -50%); /* Center the circle on the mouse */
+  transition: transform 1s; /* Smooth follow effect */
+  box-shadow: 0 0 150px 60px rgba(255, 255, 0, 0.281); /* Add blur effect */
+}
+
+
+
+
+.segment1-1{
+  padding-top: 100px;
+  text-align: center;
+}
+.segment1-100{
+  text-align: center;
+  display: flex;
+  width: 100%;
+  height: 100%;
+}
+.segment1-100-1{
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+}
+.segment1-100-2{
+  text-align: center;
+  display: block;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+}
+.segment1-1 h1{
+  color: white;
+  font-size: 70px;
+}
+.segment1-1 p{
+  color: white;
+  font-size: 25px;
+}
+
+.session-text{
+  color: white;
+  padding: 25px;
+  font-size: 2rem;
+}
+.segment1{
+  background-color: transparent;
+  width: 100%;
+  height: 75vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-left: 0.5px solid rgb(75, 74, 74);
+  border-right: 0.5px solid rgb(75, 74, 74);
+  border-bottom: 0.5px solid rgb(75, 74, 74);
+}
+.segment1-1-1{
+  background-color: transparent;
+  width: 100%;
+  height: 85vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-left: 0.5px solid rgb(75, 74, 74);
+  border-right: 0.5px solid rgb(75, 74, 74);
+  border-bottom: 0.5px solid rgb(75, 74, 74);
+}
+.segment2 {
+  background-image: url(../../images/main-banner.png);
+
+  background-color: #12111A;
+  background-size: cover; /* Ensures the image covers the entire element */
+  background-position: center; /* Centers the image */
+  background-repeat: no-repeat; /* Prevents the image from repeating */
+  width: 100%;
+  height: 75vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-left: 0.5px solid rgb(75, 74, 74);
+  border-right: 0.5px solid rgb(75, 74, 74);
+}
+.segment3{
+  background-color: #0D0B13;
+  width: 100%;
+  height: auto;
+  border-left: 0.5px solid rgb(75, 74, 74);
+  border-right: 0.5px solid rgb(75, 74, 74);
+}
+.segment4{
+  font-family: Arial, sans-serif;
+  background-color: #12111A;
+  color: #fff;
+  height: auto;
+  padding: 60px;
+  border-left: 0.5px solid rgb(75, 74, 74);
+  border-right: 0.5px solid rgb(75, 74, 74);
+}
+.segment6{
+  font-family: Arial, sans-serif;
+  background-color:#0E0C15; /* Dark background */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 50px;
+  border-left: 0.5px solid rgb(75, 74, 74);
+  border-right: 0.5px solid rgb(75, 74, 74);
+}
+.segment7{
+  background-color: transparent;
+  width: 100%;
+  height: 20vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-top: 0.5px solid rgb(75, 74, 74);
+  border-bottom: 0.5px solid rgb(75, 74, 74);
+
+}
+.segment7-2{
+  background-color: transparent;
+  width:100% ;
+  height: 20vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-left: 0.5px solid rgb(75, 74, 74);
+  border-right: 0.5px solid rgb(75, 74, 74);
+  margin-left: 4rem;
+  margin-right: 3.9rem;
+}
+
+
+.segment3 p{
+  color: white;
+  font-size: 40px;
+  text-align: left;
+}
+.segment3-1{
+  font-size: 40px;
+  text-align: left;
+  padding: 20px;
+}
+
+.segment3-2 {
+  font-size: 40px;
+  display: flex;
+  padding: 20px;
+  justify-content: space-between;
+  width: 80%;
+  margin: auto;
+  gap: 40px;
+}
+.seg-3-img{
+  width: 300px;
+}
+
+.segment3-2 {
+  display: flex;
+}
+
+.image-container {
+  position: relative;
+  display: flexbox;
+}
+
+
+
+.text-overlay {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+  font-size: 25px;
+  text-align: center;
+  padding: 0px; /* Optional: Adds some padding around the text */
+}
+
+.page-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 30px;
+}
+
+.content-container {
+  display: flex;
+  align-items: center;
+  max-width: 1200px;
+  width: 80%;
+  margin-bottom: 0px;
+  margin: auto;
+}
+
+.main-image {
+  width: 50%;
+  border-radius: 15px;
+}
+
+.text-section {
+  padding: 30px;
+}
+
+.text-section h2 {
+  color: #a8a8d8;
+}
+
+.text-section h1 {
+  margin-top: 10px;
+  font-size: 2.5em;
+  text-align: left;
+}
+
+.text-section p {
+  margin-top: 10px;
+  font-size: 1.2em;
+  text-align: left;
+
+}
+
+.cta-button {
+  margin-top: 20px;
+  padding: 10px 20px;
+  background-color: #6c63ff;
+  border: none;
+  border-radius: 5px;
+  color: #fff;
+  font-size: 1em;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.cta-button:hover {
+  background-color: #574bfa;
+}
+
+.seg-4-img{
+  width: 450px;
+}
+
+
+
+.main-container {
+  display: flex;
+  height: 180px;
+  width: 73%;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #6a4fd8; /* Purple background */
+  color: white;
+  padding: 20px;
+  border-radius: 10px;
+  max-width: 1000px;
+  
+}
+
+.text-section {
+  max-width: 600px;
+}
+
+.title {
+  margin: 0 0 10px;
+  font-size: 24px;
+}
+
+.description {
+  margin: 0;
+  font-size: 16px;
+}
+
+.cta-container {
+  display: flex;
+  align-items: center;
+}
+
+.profile-avatars {
+  display: flex;
+  align-items: center;
+  margin-right: 20px;
+}
+
+.profile-avatars img {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  margin-left: -10px;
+  border: 2px solid #6a4fd8; /* Match the background */
+}
+
+.extra-avatars {
+  width: 40px;
+  height: 40px;
+  background-color: #333;
+  color: white;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 14px;
+  margin-left: -10px;
+  border: 2px solid #6a4fd8; /* Match the background */
+}
+
+.signup-button {
+  background-color: white;
+  color: #6a4fd8;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.signup-button:hover {
+  background-color: #f0f0f0;
+}
+
+
+
+.features {
+  display: flex;
+  justify-content: space-around;
+  width: 80%;
+}
+
+.feature-item {
+  text-align: center;
+  width: 30%;
+}
+
+.feature-item img {
+  width: 50px;
+  height: 50px;
+  margin-bottom: 20px;
+}
+
+.feature-item h2 {
+  font-size: 1.2em;
+  margin-bottom: 10px;
+}
+
+.feature-item p {
+  font-size: 0.9em;
+}
+
+.marq{
+  width: 96%;
+  background-color: transparent;
+  height:100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 4rem;
+  font-weight: bolder;
+  color: white;
+}
+
+ .yellow{
+  color: yellow;
+ }
+
+ .videobox1{
+  width: 55%;
+  height: 100%;
+  background-color: transparent;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+ }
+ .videobox2{
+  width: 45%;
+  height: 100%;
+  background-color: transparent;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+ 
+ }
+ .vid-about{
+  display: block;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+  text-align: justify;
+ }
+ .head-cen{
+  text-align: center;
+ }
+
+ .sponsor-images{
+  width: 200px;
+  height: 153px;
+ }
+
+ .sponsor-cell{
+  gap:20px;
+  display: inline-flex;
+ }
+ .geryish-color{
+  color:#a5a4a4;
+ }
